@@ -11,7 +11,7 @@ var collName = 'meetSchedule'; // name of Mongo collection (created in the Mongo
 
 // Request the JSON data from I github site that I created (used the "raw" feature in git hub)
 // Insert the list of meeting data (contained in an array) in the Mongo collection
-request('https://raw.githubusercontent.com/hubideal/data-structures/master/aaMeeting/meetArray.json', function(error, response, body) {
+request('https://raw.githubusercontent.com/hubideal/data-structures/master/Week_Three_Assignment/meetingsData.json', function(error, response, body) {
     var aaMeetData = JSON.parse(body);
 
     // Connection URL
