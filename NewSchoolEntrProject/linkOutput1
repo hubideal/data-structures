@@ -1,0 +1,1565 @@
+<div id="ember794" class="ember-view"><div aria-live="polite" role="status" id="ember825" class="notification-container ember-view">
+<!----></div>
+
+<!---->
+<div id="smartbanner-wormhole">
+</div>
+
+<div id="jobs-search-alert-wormhole">
+</div>
+
+<!---->
+<div class="application-outlet " style="top:auto">
+    <div id="ember845" class="ember-view"><div id="ember854" class="ember-view"></div>
+<div id="ember892" class="ember-view"></div>
+<div id="ember908" class="ember-view"></div>
+<div id="ember917" class="ember-view"></div>
+<div id="ember929" class="ember-view"></div>
+<div id="ember961" class="ember-view"></div>
+<!---->
+<!---->
+<img id="bizo-pixel" width="1" height="1" alt="" style="display:none" src="/csp/dtag?p=10">
+<img id="rtb-pixel" width="1" height="1" alt="" style="display:none" src="/csp/ansync">
+<img id="bing-pixel" width="1" height="1" alt="" style="display:none" src="/csp/bngsync">
+</div>
+
+<!---->
+<!---->
+  <aside tabindex="-1" id="msg-overlay" class="msg-overlay-container ember-view"><div id="ember1402" class="mh4 msg-overlay-list-bubble msg-overlay-list-bubble--is-minimized ember-view"><header data-control-name="overlay.maximize_connection_list_bar" class="msg-overlay-bubble-header" data-ember-action="" data-ember-action-1405="1405">
+
+  <section class="msg-overlay-bubble-header__details flex-row align-items-center">
+        <div id="ember1410" class="presence-indicator mr2 hidden presence-indicator--size-2 ember-view"></div>
+    <h4 class="msg-overlay-bubble-header__primary-text truncate Sans-15px-black-85%">Messaging</h4>
+  </section>
+
+  <section class="msg-overlay-bubble-header__controls">
+    <button data-control-name="overlay.compose_message" class="msg-overlay-bubble-header__control msg-overlay-bubble-header__control--new-convo-btn" data-ember-action="" data-ember-action-1412="1412">
+      <span class="visually-hidden">Compose message</span>
+      <li-icon aria-hidden="true" type="compose-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M11,8.75l2-2V13a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V4A1,1,0,0,1,3,3H9.25l-2,2H4v7h7V8.75ZM6,8.59L5,11l2.41-1L12.9,4.52,11.48,3.1Zm8.85-6.73-0.71-.71a0.5,0.5,0,0,0-.71,0L12.25,2.34l1.41,1.41,1.19-1.19A0.5,0.5,0,0,0,14.85,1.85Z"></path>
+      </g></svg></li-icon>
+    </button>
+<!---->
+<artdeco-hoverable-trigger id="ember1417" class="ember-view">        <button aria-expanded="false" aria-controls="artdeco-hoverable-artdeco-gen-42" data-control-name="overlay.connection_list_settings" class="msg-overlay-bubble-header__control
+        msg-overlay-bubble-header__control--settings-btn">
+          <span class="visually-hidden">Tap for popup settings</span>
+          <li-icon aria-hidden="true" type="gear-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M8,6a2,2,0,1,0,2,2A2,2,0,0,0,8,6ZM8,9.13A1.13,1.13,0,1,1,9.13,8,1.13,1.13,0,0,1,8,9.13Zm5.36-1.49L15,6.12,13.12,2.88,11,3.54l-0.15,0a0.5,0.5,0,0,1-.49-0.39L9.88,1H6.12L5.64,3.17a0.5,0.5,0,0,1-.49.39L5,3.54,2.88,2.88,1,6.12,2.64,7.63a0.5,0.5,0,0,1,0,.74L1,9.88l1.88,3.25L5,12.46l0.15,0a0.5,0.5,0,0,1,.49.39L6.12,15H9.88l0.49-2.17a0.5,0.5,0,0,1,.49-0.39l0.15,0,2.12,0.66L15,9.88,13.36,8.37A0.5,0.5,0,0,1,13.36,7.63Zm-1.1,1.93,0.68,0.63-0.58,1-0.88-.28a2.12,2.12,0,0,0-2.71,1.56l-0.2.9H7.42l-0.2-.9a2.12,2.12,0,0,0-2.71-1.56l-0.88.28-0.58-1,0.68-.63a2.13,2.13,0,0,0,0-3.12L3.06,5.81l0.57-1L4.52,5.09A2.12,2.12,0,0,0,7.22,3.53l0.2-.9H8.58l0.2,0.9a2.12,2.12,0,0,0,2.71,1.56l0.88-.28,0.57,1-0.68.63A2.13,2.13,0,0,0,12.26,9.56Z"></path>
+      </g></svg></li-icon>
+        </button>
+<div id="artdeco-gen-42" style="display: none;" class="ember-view"><div id="ember1427" class="ember-view"></div></div></artdeco-hoverable-trigger>  </section>
+</header>
+
+<section class="msg-overlay-bubble-content msg-overlay-list-bubble__content">
+  <div id="ember1444" class="msg-overlay-list-bubble-search ember-view"><div class="msg-overlay-list-bubble-search__input-container">
+  <!---->  <label class="a11y-text">Search</label>
+  <input type="text" placeholder="Search" id="ember1447" class="msg-overlay-list-bubble-search__search-typeahead-input ember-text-field ember-view">
+</div>
+
+<div class="msg-overlay-list-bubble-search-content hidden">
+      <div class="msg-overlay-list-bubble-search__history-placeholder-container text-align-center">
+        <div class="msg-overlay-list-bubble-search__history-placeholder-illustration"></div>
+        <p class="Sans-13px-black-55% ph2">
+          Search your messages by recipient, content, or conversation name
+        </p>
+      </div>
+</div>
+</div>
+
+<!----></section>
+</div>
+
+<!---->
+<!----></aside>
+
+
+<!---->
+<div class="authentication-outlet">
+  <div class="organization-outlet relative">
+  <div id="ember8228" class="ember-view">
+<figure id="ember8229" class="company-hero-image-container company-hero-image-figure ember-view">  <img aria-hidden="true" class="company-hero-image static-background-cover-image">
+</figure>
+
+<main class="org-alumni-content-container clearfix">
+  <div class="org-alumni-top-card container p0">
+    <div class="org-alumni-top-card__header p5">
+      <div class="org-alumni-top-card__school-info clearfix">
+<a href="/school/301086/" id="ember8230" class="ember-view">          <img class="lazy-image alumni-college-logo EntityPhoto-square-4 loaded" alt="" height="56" width="56" src="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAANkAAAAJDdhZjIwMDZkLTc1ODQtNDUxOS04ODE2LTc5YTUxOWQ3ODcxZQ.png">
+</a>        <p class="org-alumni-top-card__school-info-subheading pl4 Sans-26px-black-85%-light">Parsons School of Design - The New School Career Insights</p>
+      </div>
+
+      <div id="ember8231" class="org-alternate-school-switcher ember-view"><div id="ember8232" class="dropdown closed ember-view"><button type="button" aria-controls="ember8232-options" aria-expanded="false" id="ember8232-trigger" class="button-tertiary-large-muted fr pb4 dropdown-trigger ember-view">    <span class="Sans-17px-black-55%-semibold mr2">Change university</span>
+    <span class="a11y-text">Click to open a tool that will allow you to view the alumni tool for a different university</span>
+    <li-icon aria-hidden="true" type="chevron-down-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M8,9l5.93-4L15,6.54l-6.15,4.2a1.5,1.5,0,0,1-1.69,0L1,6.54,2.07,5Z"></path>
+      </g></svg></li-icon>
+</button><div id="ember8232-options" style="display: none;" class="org-alternate-school-switcher__dropdown-options artdeco-dropdown-menu ember-view" tabindex="-1"><!----></div>
+</div></div>
+
+      <div class="org-alumni-search-filter">
+        <label for="alumni-search-date" class="hidden">Filter profiles by attended or graduated date</label>
+        <select id="alumni-search-date" class="org-alumni-search-filter__select org-alumni-search-filter__inline-input-group">
+          <option value="attended">Attended</option>
+          <option value="graduated">Graduated</option>
+        </select>
+          <div class="org-alumni-search-filter__inline-input-group">
+            <label for="alumni-search-year-start" class="label-position-override">Start year</label>
+            <input type="text" id="alumni-search-year-start" placeholder="1900" class="org-alumni-search-filter__year-input">
+          </div>
+          <p class="org-alumni-search-filter__inline-input-group org-alumni-search-filter__copy Sans-15px-black-55%">to</p>
+        <div class="org-alumni-search-filter__inline-input-group">
+          <label for="alumni-search-year-end" class="mt0 ">
+            End year
+          </label>
+          <input type="text" id="alumni-search-year-end" placeholder="2017" class="org-alumni-search-filter__year-input">
+        </div>
+      </div>
+    </div>
+
+<div id="ember8235" class="ember-view">      <div class="org-alumni-main-content clearfix  org-alumni-main-content--no-filters">
+        <div class="org-alumni-insights easeInOut-long-slow-motion ph5 pt5">
+          <div class="fl">
+            <label for="alumni-search-keywords" class="hidden">Search alumni by title, keyword or company</label>
+            <input type="text" placeholder="Search alumni by title, keyword or company" id="alumni-search-keywords" class="org-alumni-main-content__search-input mb4 ember-text-field ember-view">
+
+              <div class="Sans-19px-black-100%-semibold mb3">44,098 alumni</div>
+
+<!---->            </div>
+
+<div id="ember15311" class="artdeco-carousel-container ember-view"><!---->
+  <div class="pagination-btns">
+    <button disabled="" class="previous-btn" data-ember-action="" data-ember-action-15312="15312">
+      <li-icon aria-hidden="true" type="chevron-left-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M7,8l4,5.9L9.5,15,5.3,8.8a1.22,1.22,0,0,1,0-1.6L9.5,1,11,2.1Z"></path>
+      </g></svg></li-icon>
+        <span>Previous</span>
+    </button>
+    <button class="next-btn" data-ember-action="" data-ember-action-15313="15313">
+        <span>Next</span>
+      <li-icon aria-hidden="true" type="chevron-right-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M9,8L5,2.07,6.54,1l4.2,6.15a1.5,1.5,0,0,1,0,1.69L6.54,15,5,13.93Z"></path>
+      </g></svg></li-icon>
+    </button>
+  </div>
+
+<div id="ember15314" class="artdeco-carousel-draggable artdeco-carousel-slide-list-container ember-view"><ul class="artdeco-carousel-slide-list" style="touch-action: pan-x; transform: translateX(0px);">
+<li id="ember15647" class="artdeco-carousel-slide-container ember-view" style="width: 912px;"><div class="artdeco-carousel-slide active">
+                                  <div id="ember15648" class="org-alumni-bar-graph-module org-alumni-bar-graph-module--no-filters-selected org-alumni-bar-graph-module__geo-region ember-view">
+<div class="insight-container">
+    <h4 class="Sans-15px-black-85%-semibold inline-block">Where they live</h4>
+      <button class="org-alumni-bar-graph-module__add-search-facet button-tertiary-small-muted mr6 v-align-top fr" data-ember-action="" data-ember-action-15649="15649">
+        <li-icon aria-hidden="true" type="plus-icon" class="org-alumni-bar-graph-module__add-search-facet-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M14,9H9v5H7V9H2V7H7V2H9V7h5V9Z"></path>
+      </g></svg></li-icon>
+        <span class="a11y-text">Click to add a new search facet</span>
+        Add
+      </button>
+
+    <div id="ember15650" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15651="15651">
+  <rect width="100%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>35,937</strong> <span class="org-bar-graph-element__category">United States</span>
+</div>
+</div>
+    <div id="ember15652" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15653="15653">
+  <rect width="66.91153963881237%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>24,046</strong> <span class="org-bar-graph-element__category">Greater New York City Area</span>
+</div>
+</div>
+    <div id="ember15654" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15655="15655">
+  <rect width="5.153463004702674%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,852</strong> <span class="org-bar-graph-element__category">Greater Los Angeles Area</span>
+</div>
+</div>
+    <div id="ember15656" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15657="15657">
+  <rect width="2.14263850627487%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>770</strong> <span class="org-bar-graph-element__category">United Kingdom</span>
+</div>
+</div>
+    <div id="ember15658" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15659="15659">
+  <rect width="1.672371093858697%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>601</strong> <span class="org-bar-graph-element__category">Greater Boston Area</span>
+</div>
+</div>
+    <div id="ember15660" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15661="15661">
+  <rect width="1.4386287113559841%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>517</strong> <span class="org-bar-graph-element__category">Brazil</span>
+</div>
+</div>
+    <div id="ember15662" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15663="15663">
+  <rect width="1.4163675320700113%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>509</strong> <span class="org-bar-graph-element__category">France</span>
+</div>
+</div>
+    <div id="ember15664" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15665="15665">
+  <rect width="1.4080195898377716%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>506</strong> <span class="org-bar-graph-element__category">Washington D.C. Metro Area</span>
+</div>
+</div>
+    <div id="ember15666" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15667="15667">
+  <rect width="1.257756629657456%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>452</strong> <span class="org-bar-graph-element__category">Greater Philadelphia Area</span>
+</div>
+</div>
+    <div id="ember15668" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15669="15669">
+  <rect width="1.2438433926037231%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>447</strong> <span class="org-bar-graph-element__category">Paris Area, France</span>
+</div>
+</div>
+    <div id="ember15670" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15671="15671">
+  <rect width="0.8848818766174138%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>318</strong> <span class="org-bar-graph-element__category">Mexico</span>
+</div>
+</div>
+    <div id="ember15672" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15673="15673">
+  <rect width="0.7318362690263517%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>263</strong> <span class="org-bar-graph-element__category">São Paulo Area, Brazil</span>
+</div>
+</div>
+    <div id="ember15674" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15675="15675">
+  <rect width="0.3589615159863094%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>129</strong> <span class="org-bar-graph-element__category">Switzerland</span>
+</div>
+</div>
+    <div id="ember15676" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15677="15677">
+  <rect width="0.0027826474107465844%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1</strong> <span class="org-bar-graph-element__category">Algeria</span>
+</div>
+</div>
+    <div id="ember15678" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15679="15679">
+  <rect width="0.0027826474107465844%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1</strong> <span class="org-bar-graph-element__category">Algeria area</span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div></li><li id="ember15680" class="artdeco-carousel-slide-container ember-view" style="width: 912px;"><div class="artdeco-carousel-slide ">
+                                  <div id="ember15681" class="org-alumni-bar-graph-module org-alumni-bar-graph-module--no-filters-selected org-alumni-bar-graph-module__current-company ember-view">
+<div class="insight-container">
+    <h4 class="Sans-15px-black-85%-semibold inline-block">Where they work</h4>
+      <button class="org-alumni-bar-graph-module__add-search-facet button-tertiary-small-muted mr6 v-align-top fr" data-ember-action="" data-ember-action-15682="15682">
+        <li-icon aria-hidden="true" type="plus-icon" class="org-alumni-bar-graph-module__add-search-facet-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M14,9H9v5H7V9H2V7H7V2H9V7h5V9Z"></path>
+      </g></svg></li-icon>
+        <span class="a11y-text">Click to add a new search facet</span>
+        Add
+      </button>
+
+    <div id="ember15683" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15684="15684">
+  <rect width="100%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>386</strong> <span class="org-bar-graph-element__category">Parsons School of Design - The New School</span>
+</div>
+</div>
+    <div id="ember15685" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15686="15686">
+  <rect width="66.06217616580311%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>255</strong> <span class="org-bar-graph-element__category">The New School</span>
+</div>
+</div>
+    <div id="ember15687" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15688="15688">
+  <rect width="43.005181347150256%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>166</strong> <span class="org-bar-graph-element__category">Ralph Lauren</span>
+</div>
+</div>
+    <div id="ember15689" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15690="15690">
+  <rect width="30.05181347150259%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>116</strong> <span class="org-bar-graph-element__category">Macy's</span>
+</div>
+</div>
+    <div id="ember15691" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15692="15692">
+  <rect width="17.357512953367877%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>67</strong> <span class="org-bar-graph-element__category">Calvin Klein</span>
+</div>
+</div>
+    <div id="ember15693" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15694="15694">
+  <rect width="16.83937823834197%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>65</strong> <span class="org-bar-graph-element__category">Saks Fifth Avenue</span>
+</div>
+</div>
+    <div id="ember15695" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15696="15696">
+  <rect width="16.321243523316063%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>63</strong> <span class="org-bar-graph-element__category">J.Crew</span>
+</div>
+</div>
+    <div id="ember15697" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15698="15698">
+  <rect width="15.803108808290155%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>61</strong> <span class="org-bar-graph-element__category">L'Oréal</span>
+</div>
+</div>
+    <div id="ember15699" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15700="15700">
+  <rect width="15.803108808290155%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>61</strong> <span class="org-bar-graph-element__category">Nike</span>
+</div>
+</div>
+    <div id="ember15701" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15702="15702">
+  <rect width="15.025906735751295%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>58</strong> <span class="org-bar-graph-element__category">The Estée Lauder Companies Inc.</span>
+</div>
+</div>
+    <div id="ember15703" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15704="15704">
+  <rect width="14.248704663212436%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>55</strong> <span class="org-bar-graph-element__category">Coach</span>
+</div>
+</div>
+    <div id="ember15705" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15706="15706">
+  <rect width="13.989637305699482%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>54</strong> <span class="org-bar-graph-element__category">Michael Kors</span>
+</div>
+</div>
+    <div id="ember15707" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15708="15708">
+  <rect width="13.471502590673575%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>52</strong> <span class="org-bar-graph-element__category">Fashion Institute of Technology</span>
+</div>
+</div>
+    <div id="ember15709" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15710="15710">
+  <rect width="12.953367875647668%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>50</strong> <span class="org-bar-graph-element__category">Gensler</span>
+</div>
+</div>
+    <div id="ember15711" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15712="15712">
+  <rect width="12.694300518134716%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>49</strong> <span class="org-bar-graph-element__category">Apple</span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div></li><li id="ember15713" class="artdeco-carousel-slide-container ember-view" style="width: 912px;"><div class="artdeco-carousel-slide ">
+                                  <div id="ember15714" class="org-alumni-bar-graph-module org-alumni-bar-graph-module--no-filters-selected org-alumni-bar-graph-module__current-function ember-view">
+<div class="insight-container">
+    <h4 class="Sans-15px-black-85%-semibold inline-block">What they do</h4>
+<!---->
+    <div id="ember15715" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15716="15716">
+  <rect width="100%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>17,294</strong> <span class="org-bar-graph-element__category">Arts and Design</span>
+</div>
+</div>
+    <div id="ember15717" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15718="15718">
+  <rect width="37.40603677576038%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>6,469</strong> <span class="org-bar-graph-element__category">Entrepreneurship</span>
+</div>
+</div>
+    <div id="ember15719" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15720="15720">
+  <rect width="20.05897999306118%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,469</strong> <span class="org-bar-graph-element__category">Education</span>
+</div>
+</div>
+    <div id="ember15721" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15722="15722">
+  <rect width="19.98380941366948%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,456</strong> <span class="org-bar-graph-element__category">Business Development</span>
+</div>
+</div>
+    <div id="ember15723" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15724="15724">
+  <rect width="17.80386261131028%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,079</strong> <span class="org-bar-graph-element__category">Marketing</span>
+</div>
+</div>
+    <div id="ember15725" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15726="15726">
+  <rect width="16.809298022435527%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>2,907</strong> <span class="org-bar-graph-element__category">Media and Communication</span>
+</div>
+</div>
+    <div id="ember15727" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15728="15728">
+  <rect width="12.692263212674916%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>2,195</strong> <span class="org-bar-graph-element__category">Sales</span>
+</div>
+</div>
+    <div id="ember15729" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15730="15730">
+  <rect width="11.74973979414826%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>2,032</strong> <span class="org-bar-graph-element__category">Operations</span>
+</div>
+</div>
+    <div id="ember15731" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15732="15732">
+  <rect width="9.55822828726726%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,653</strong> <span class="org-bar-graph-element__category">Information Technology</span>
+</div>
+</div>
+    <div id="ember15733" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15734="15734">
+  <rect width="5.632011102116341%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>974</strong> <span class="org-bar-graph-element__category">Administrative</span>
+</div>
+</div>
+    <div id="ember15735" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15736="15736">
+  <rect width="5.152075864461663%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>891</strong> <span class="org-bar-graph-element__category">Program and Project Management</span>
+</div>
+</div>
+    <div id="ember15737" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15738="15738">
+  <rect width="4.845611194633977%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>838</strong> <span class="org-bar-graph-element__category">Engineering</span>
+</div>
+</div>
+    <div id="ember15739" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15740="15740">
+  <rect width="4.544928877067191%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>786</strong> <span class="org-bar-graph-element__category">Community and Social Services</span>
+</div>
+</div>
+    <div id="ember15741" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15742="15742">
+  <rect width="4.475540649936394%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>774</strong> <span class="org-bar-graph-element__category">Product Management</span>
+</div>
+</div>
+    <div id="ember15743" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15744="15744">
+  <rect width="3.891523071585521%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>673</strong> <span class="org-bar-graph-element__category">Consulting</span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div></li><li id="ember15745" class="artdeco-carousel-slide-container ember-view" style="width: 912px;"><div class="artdeco-carousel-slide ">
+                                  <div id="ember15746" class="org-alumni-bar-graph-module org-alumni-bar-graph-module--no-filters-selected org-alumni-bar-graph-module__field-of-study ember-view">
+<div class="insight-container">
+    <h4 class="Sans-15px-black-85%-semibold inline-block">What they studied</h4>
+      <button class="org-alumni-bar-graph-module__add-search-facet button-tertiary-small-muted mr6 v-align-top fr" data-ember-action="" data-ember-action-15747="15747">
+        <li-icon aria-hidden="true" type="plus-icon" class="org-alumni-bar-graph-module__add-search-facet-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M14,9H9v5H7V9H2V7H7V2H9V7h5V9Z"></path>
+      </g></svg></li-icon>
+        <span class="a11y-text">Click to add a new search facet</span>
+        Add
+      </button>
+
+    <div id="ember15748" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15749="15749">
+  <rect width="100%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>11,231</strong> <span class="org-bar-graph-element__category">Design and Visual Communications, General</span>
+</div>
+</div>
+    <div id="ember15750" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15751="15751">
+  <rect width="72.6026177544297%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>8,154</strong> <span class="org-bar-graph-element__category">Fashion/Apparel Design</span>
+</div>
+</div>
+    <div id="ember15752" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15753="15753">
+  <rect width="38.5896180215475%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>4,334</strong> <span class="org-bar-graph-element__category">Graphic Design</span>
+</div>
+</div>
+    <div id="ember15754" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15755="15755">
+  <rect width="31.93838482770902%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,587</strong> <span class="org-bar-graph-element__category">Marketing</span>
+</div>
+</div>
+    <div id="ember15756" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15757="15757">
+  <rect width="31.29730211023061%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,515</strong> <span class="org-bar-graph-element__category">Communication, General</span>
+</div>
+</div>
+    <div id="ember15758" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15759="15759">
+  <rect width="29.32063039800552%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,293</strong> <span class="org-bar-graph-element__category">Interior Design</span>
+</div>
+</div>
+    <div id="ember15760" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15761="15761">
+  <rect width="28.63502804736889%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>3,216</strong> <span class="org-bar-graph-element__category">Fine/Studio Arts, General</span>
+</div>
+</div>
+    <div id="ember15762" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15763="15763">
+  <rect width="22.268720505743033%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>2,501</strong> <span class="org-bar-graph-element__category">Illustration</span>
+</div>
+</div>
+    <div id="ember15764" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15765="15765">
+  <rect width="20.888611877838127%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>2,346</strong> <span class="org-bar-graph-element__category">Photography</span>
+</div>
+</div>
+    <div id="ember15766" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15767="15767">
+  <rect width="19.553022883091444%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>2,196</strong> <span class="org-bar-graph-element__category">Art/Art Studies, General</span>
+</div>
+</div>
+    <div id="ember15768" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15769="15769">
+  <rect width="17.647582583919508%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,982</strong> <span class="org-bar-graph-element__category">Architecture</span>
+</div>
+</div>
+    <div id="ember15770" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15771="15771">
+  <rect width="14.896269254741341%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,673</strong> <span class="org-bar-graph-element__category">CAD/CADD Drafting and/or Design Technology/Technician</span>
+</div>
+</div>
+    <div id="ember15772" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15773="15773">
+  <rect width="13.569584186626303%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,524</strong> <span class="org-bar-graph-element__category">Industrial and Product Design</span>
+</div>
+</div>
+    <div id="ember15774" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15775="15775">
+  <rect width="12.72371115662007%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,429</strong> <span class="org-bar-graph-element__category">Art History, Criticism and Conservation</span>
+</div>
+</div>
+    <div id="ember15776" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15777="15777">
+  <rect width="10.80936693081649%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,214</strong> <span class="org-bar-graph-element__category">National Security Policy Studies</span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div></li><li id="ember15778" class="artdeco-carousel-slide-container ember-view" style="width: 912px;"><div class="artdeco-carousel-slide ">
+                                  <div id="ember15779" class="org-alumni-bar-graph-module org-alumni-bar-graph-module--no-filters-selected org-alumni-bar-graph-module__skill-explicit ember-view">
+<div class="insight-container">
+    <h4 class="Sans-15px-black-85%-semibold inline-block">What they are skilled at</h4>
+      <button class="org-alumni-bar-graph-module__add-search-facet button-tertiary-small-muted mr6 v-align-top fr" data-ember-action="" data-ember-action-15780="15780">
+        <li-icon aria-hidden="true" type="plus-icon" class="org-alumni-bar-graph-module__add-search-facet-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M14,9H9v5H7V9H2V7H7V2H9V7h5V9Z"></path>
+      </g></svg></li-icon>
+        <span class="a11y-text">Click to add a new search facet</span>
+        Add
+      </button>
+
+    <div id="ember15781" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15782="15782">
+  <rect width="100%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>16,273</strong> <span class="org-bar-graph-element__category">Adobe Photoshop</span>
+</div>
+</div>
+    <div id="ember15783" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15784="15784">
+  <rect width="86.75106003809992%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>14,117</strong> <span class="org-bar-graph-element__category">Adobe Illustrator</span>
+</div>
+</div>
+    <div id="ember15785" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15786="15786">
+  <rect width="73.69261967676519%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>11,992</strong> <span class="org-bar-graph-element__category">Graphic Design</span>
+</div>
+</div>
+    <div id="ember15787" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15788="15788">
+  <rect width="71.85522030357033%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>11,693</strong> <span class="org-bar-graph-element__category">Social Media</span>
+</div>
+</div>
+    <div id="ember15789" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15790="15790">
+  <rect width="69.88877281386345%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>11,373</strong> <span class="org-bar-graph-element__category">Adobe Creative Suite</span>
+</div>
+</div>
+    <div id="ember15791" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15792="15792">
+  <rect width="66.09721624777238%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>10,756</strong> <span class="org-bar-graph-element__category">Art Direction</span>
+</div>
+</div>
+    <div id="ember15793" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15794="15794">
+  <rect width="63.909543415473486%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>10,400</strong> <span class="org-bar-graph-element__category">InDesign</span>
+</div>
+</div>
+    <div id="ember15795" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15796="15796">
+  <rect width="60.66490505745714%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>9,872</strong> <span class="org-bar-graph-element__category">Microsoft Office</span>
+</div>
+</div>
+    <div id="ember15797" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15798="15798">
+  <rect width="58.05936213359553%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>9,448</strong> <span class="org-bar-graph-element__category">Fashion</span>
+</div>
+</div>
+    <div id="ember15799" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15800="15800">
+  <rect width="54.0588705217231%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>8,797</strong> <span class="org-bar-graph-element__category">Marketing</span>
+</div>
+</div>
+    <div id="ember15801" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15802="15802">
+  <rect width="46.998095003994344%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>7,648</strong> <span class="org-bar-graph-element__category">Photography</span>
+</div>
+</div>
+    <div id="ember15803" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15804="15804">
+  <rect width="43.1573772506606%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>7,023</strong> <span class="org-bar-graph-element__category">Advertising</span>
+</div>
+</div>
+    <div id="ember15805" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15806="15806">
+  <rect width="40.10323849320961%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>6,526</strong> <span class="org-bar-graph-element__category">Art</span>
+</div>
+</div>
+    <div id="ember15807" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15808="15808">
+  <rect width="39.95575493148159%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>6,502</strong> <span class="org-bar-graph-element__category">Fashion Design</span>
+</div>
+</div>
+    <div id="ember15809" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15810="15810">
+  <rect width="36.33011737233454%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>5,912</strong> <span class="org-bar-graph-element__category">Microsoft Excel</span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div></li><li id="ember15811" class="artdeco-carousel-slide-container ember-view" style="width: 912px;"><div class="artdeco-carousel-slide ">
+                                  <div id="ember15812" class="org-alumni-bar-graph-module org-alumni-bar-graph-module--no-filters-selected org-alumni-bar-graph-module__network ember-view">
+<div class="insight-container">
+    <h4 class="Sans-15px-black-85%-semibold inline-block">How you are connected</h4>
+<!---->
+    <div id="ember15813" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15814="15814">
+  <rect width="100%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>43,068</strong> <span class="org-bar-graph-element__category">3rd+</span>
+</div>
+</div>
+    <div id="ember15815" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15816="15816">
+  <rect width="2.521593758707161%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>1,086</strong> <span class="org-bar-graph-element__category">2nd</span>
+</div>
+</div>
+    <div id="ember15817" class="org-alumni-bar-graph-module__bar-graph-element org-bar-graph-element mt4 org-bar-graph-element--is-selectable ember-view">
+<svg class="org-bar-graph-element__percentage-bar-container block" data-ember-action="" data-ember-action-15818="15818">
+  <rect width="0.011609547692021919%" height="20" rx="2" ry="2" class="org-bar-graph-element__percentage-bar"></rect>
+</svg>
+
+<div class="org-bar-graph-element__percentage-bar-info Sans-15px-black-70% mt2 mb4">
+    <strong>5</strong> <span class="org-bar-graph-element__category">1st</span>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div></li></ul></div>
+<!----></div>        </div>
+
+            <button class="org-alumni-insights__show-more-button Sans-17px-black-55%-semibold" data-ember-action="" data-ember-action-15550="15550">
+                Show less
+                <li-icon aria-hidden="true" type="chevron-up-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M8,7l-5.9,4L1,9.5l6.2-4.2c0.5-0.3,1.2-0.3,1.7,0L15,9.5L13.9,11L8,7z"></path>
+      </g></svg></li-icon>
+            </button>
+      </div>
+
+</div>  </div>
+
+    <div id="ember13113" class="org-alumni-profiles-module list ember-view"><ul class="org-alumni-profiles-module__profiles-list">
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15819" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/ashadecosta/" id="ember15820" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Asha’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/ashadecosta/" id="ember15821" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Asha De Costa, Ed.M, MHC-LP
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          1st
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15822" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Assistant </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Director, Office of Career Services at Columbia University Mailman School of Public Health</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16105="16105">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’05 Fine Arts
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Rosemary’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">10 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+<a data-control-name="message" target="_blank" href="/messaging/compose/?connId=24204793" id="ember15824" class="org-alumni-profile-card__messaging-button-shrunk button-secondary-large-round mr4 mt2 ember-view">          <li-icon aria-hidden="true" type="messages-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M21,8H8A1,1,0,0,0,7,9V19a1,1,0,0,0,1,1H18l4,3V9A1,1,0,0,0,21,8ZM20,19.11L18.52,18H9V10H20v9.11ZM12,15h5v1H12V15ZM4,13H5v2H3a1,1,0,0,1-1-1V4A1,1,0,0,1,3,3H16a1,1,0,0,1,1,1V6H15V5H4v8Zm14,0H11V12h7v1Z"></path>
+      </g></svg></li-icon>
+</a><a data-control-name="message" target="_blank" href="/messaging/compose/?connId=24204793" id="ember15825" class="org-alumni-profile-card__messaging-button-expanded ember-view">          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Message</span>
+</a>    </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15826" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/stevenhubbardphd/" id="ember15827" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Steven’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/stevenhubbardphd/" id="ember15828" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Steven Hubbard, Ph.D.
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          You
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15829" class="ember-view">  <div class="truncate-multiline--truncation-target"><span class="truncate-multiline--last-line-wrapper"><span>Research at Parsons School of Design</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16106="16106">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’18 Data Visualization
+      </dd>
+  </dl>
+
+<!----></div>
+
+
+<!----></div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15831" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/jane-mitchell-51016225/" id="ember15832" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Jane’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/jane-mitchell-51016225/" id="ember15833" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Jane Mitchell
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          1st
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15834" class="ember-view">  <div class="truncate-multiline--truncation-target"><span class="truncate-multiline--last-line-wrapper"><span>Creative Technologist</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16107="16107">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’17 Design and Technology
+      </dd>
+  </dl>
+
+<!----></div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+<a data-control-name="message" target="_blank" href="/messaging/compose/?connId=86970972" id="ember15836" class="org-alumni-profile-card__messaging-button-shrunk button-secondary-large-round mr4 mt2 ember-view">          <li-icon aria-hidden="true" type="messages-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M21,8H8A1,1,0,0,0,7,9V19a1,1,0,0,0,1,1H18l4,3V9A1,1,0,0,0,21,8ZM20,19.11L18.52,18H9V10H20v9.11ZM12,15h5v1H12V15ZM4,13H5v2H3a1,1,0,0,1-1-1V4A1,1,0,0,1,3,3H16a1,1,0,0,1,1,1V6H15V5H4v8Zm14,0H11V12h7v1Z"></path>
+      </g></svg></li-icon>
+</a><a data-control-name="message" target="_blank" href="/messaging/compose/?connId=86970972" id="ember15837" class="org-alumni-profile-card__messaging-button-expanded ember-view">          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Message</span>
+</a>    </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15838" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/riley-hoonan/" id="ember15839" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5 loaded" alt="Riley’s profile picture" height="72" width="72" src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAyrAAAAJDcyMWU0ZmE3LTBmNzktNDQ3Yy1hNTk2LTZmNTQ1NjA3ZjNmMg.jpg"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/riley-hoonan/" id="ember15840" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Riley Hoonan
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          1st
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15841" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Design &amp; </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Data Visualization</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16108="16108">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’17 Data Visualization
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Aaron’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">1 connection</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+<a data-control-name="message" target="_blank" href="/messaging/compose/?connId=67001925" id="ember15843" class="org-alumni-profile-card__messaging-button-shrunk button-secondary-large-round mr4 mt2 ember-view">          <li-icon aria-hidden="true" type="messages-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M21,8H8A1,1,0,0,0,7,9V19a1,1,0,0,0,1,1H18l4,3V9A1,1,0,0,0,21,8ZM20,19.11L18.52,18H9V10H20v9.11ZM12,15h5v1H12V15ZM4,13H5v2H3a1,1,0,0,1-1-1V4A1,1,0,0,1,3,3H16a1,1,0,0,1,1,1V6H15V5H4v8Zm14,0H11V12h7v1Z"></path>
+      </g></svg></li-icon>
+</a><a data-control-name="message" target="_blank" href="/messaging/compose/?connId=67001925" id="ember15844" class="org-alumni-profile-card__messaging-button-expanded ember-view">          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Message</span>
+</a>    </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15845" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/traykovk/" id="ember15846" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Kiril’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/traykovk/" id="ember15847" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Kiril Traykov
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          1st
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15848" class="ember-view">  <div class="truncate-multiline--truncation-target"><span class="truncate-multiline--last-line-wrapper"><span>Analytics &amp; Visualization</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16109="16109">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’18 Master of Science in Data Visualization
+      </dd>
+  </dl>
+
+<!----></div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+<a data-control-name="message" target="_blank" href="/messaging/compose/?connId=74990243" id="ember15850" class="org-alumni-profile-card__messaging-button-shrunk button-secondary-large-round mr4 mt2 ember-view">          <li-icon aria-hidden="true" type="messages-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M21,8H8A1,1,0,0,0,7,9V19a1,1,0,0,0,1,1H18l4,3V9A1,1,0,0,0,21,8ZM20,19.11L18.52,18H9V10H20v9.11ZM12,15h5v1H12V15ZM4,13H5v2H3a1,1,0,0,1-1-1V4A1,1,0,0,1,3,3H16a1,1,0,0,1,1,1V6H15V5H4v8Zm14,0H11V12h7v1Z"></path>
+      </g></svg></li-icon>
+</a><a data-control-name="message" target="_blank" href="/messaging/compose/?connId=74990243" id="ember15851" class="org-alumni-profile-card__messaging-button-expanded ember-view">          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Message</span>
+</a>    </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15852" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/tsuyayee/" id="ember15853" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Tsuya’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/tsuyayee/" id="ember15854" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Tsuya Yee
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15855" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Assistant </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Dean of Academic Affairs at The New School for Social Research</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16110="16110">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        Fine and Studio Arts
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Erica’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">8 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15857="15857">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15858="15858">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15859" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/tomomiuetani/" id="ember15860" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Tomomi’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/tomomiuetani/" id="ember15861" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Tomomi Uetani
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15862" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Career </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Counselor | Program Manager | Educator | Certified MBTI Practitioner</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16111="16111">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’07 Digital &amp;amp; Graphic Design
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Tina’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">6 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15864="15864">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15865="15865">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15866" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/thomasakarlin/" id="ember15867" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5 loaded" alt="Thomas’ profile picture" height="72" width="72" src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAb9AAAAJDU2OGE0Y2JkLWJjZjgtNDcxNC1hYjFmLTgyMmUyYjJkZmQyMQ.jpg"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/thomasakarlin/" id="ember15868" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Thomas Karlin
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15869" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Program </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">and Project Coordination</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16112="16112">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        Art and Design Education
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Rosemary’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">3 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15871="15871">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15872="15872">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15873" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/kelseykozak/" id="ember15874" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Kelsey’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/kelseykozak/" id="ember15875" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Kelsey Kozak, M.S.Ed.
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15876" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Academic </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">+ Career Advisor at The New School</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16113="16113">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        Graphic and Digital Design 
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Scott’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">5 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15878="15878">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15879="15879">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15880" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/lromeo/" id="ember15881" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5 ghost-person" alt="Lisa’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/lromeo/" id="ember15882" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Lisa Romeo
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15883" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Assistant </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Director of Undergraduate Career Services and Experiential Opportunities at The New School</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16114="16114">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        Graphic Design
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Wanda’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">2 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15885="15885">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15886="15886">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15887" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/haley-baron-31000a78/" id="ember15888" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5" alt="Haley’s profile picture" height="72" width="72"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/haley-baron-31000a78/" id="ember15889" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Haley Baron
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15890" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Student </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Success Coordinator  at The New School</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16115="16115">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’18 Strategic Design and Management
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="Bernadette’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">2 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15892="15892">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15893="15893">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+    <li class="org-alumni-profiles-module__profiles-list-item full-width">
+      <div id="ember15894" class="org-alumni-profile-card align-items-center org-alumni-profile-card--with-badge ember-view">
+<div class="org-alumni-profile-card__main-content align-items-center flex-grow-1">
+  <figure class="org-alumni-profile-card__image-wrapper"><a href="/in/danalexanderdesign/" id="ember15895" class="ember-view">      <img class="lazy-image org-alumni-profile-card__image round-image EntityPhoto-circle-5 loaded" alt="Daniel’s profile picture" height="72" width="72" src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/p/7/005/00e/105/20b2007.jpg"></a>  </figure>
+  <dl class="org-alumni-profile-card__profile-info pl3 pr3 flex-grow-1">
+    <div class="display-flex align-items-center">
+      <dt class="org-alumni-profile-card__profile-headline">
+<a href="/in/danalexanderdesign/" id="ember15896" class="org-alumni-profile-card__full-name-link link-without-visited-state ember-view">              Daniel Alexander
+</a>      </dt>
+        <dd class="badge flex-grow-1 text-align-left">
+          2nd
+        </dd>
+    </div>
+
+      <dd class="org-alumni-profile-card__position-title">
+        <div id="ember15897" class="ember-view">  <div class="truncate-multiline--truncation-target"><span>Graphic </span><span class="truncate-multiline--last-line-wrapper"><span class="truncate-multiline--last-line">Designer at Daniel Alexander Design</span><button class="truncate-multiline--button-hidden" data-ember-action="" data-ember-action-16116="16116">
+<!---->  </button></span></div>
+  
+</div>
+      </dd>
+
+      <dd class="org-alumni-profile-card__graduation-details">
+        ’12
+      </dd>
+  </dl>
+
+      <dl class="org-alumni-profile-card__common-connections mb4">
+        <img class="lazy-image org-alumni-profile-card__common-connections-image round-image EntityPhoto-circle-1 v-align-middle" alt="David’s profile picture" height="72" width="72">
+        <div class="org-alumni-profile-card__common-connections-subtext inline-block">
+          <span class="Sans-15px-black-85%-semibold">2 connections</span> <span class="Sans-15px-black-55%">in common</span>
+        </div>
+      </dl>
+</div>
+
+
+  <ul class="org-alumni-profile-card__profile-actions list-style-none inline-block">
+    <li>
+        <button class="org-alumni-profile-card__connect-button-shrunk mr4" data-ember-action="" data-ember-action-15899="15899">
+          <li-icon aria-hidden="true" type="connect-icon" class="org-alumni-profile-card__primary-action-icon" size="24dp"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="large-icon" style="fill: currentColor">
+        <path d="M24,8v2H21v3H19V10H16V8h3V5h2V8h3Zm-5,9.73V20a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V17.73A4,4,0,0,1,3.55,14L7,12.66V10.83A8,8,0,0,1,6,7V6a4,4,0,0,1,8,0V7a8,8,0,0,1-1,3.86v1.84L16.45,14A4,4,0,0,1,19,17.73ZM8,7.16A6,6,0,0,0,8.71,10L9,10.6a1,1,0,0,0,.88.53h0.16A1,1,0,0,0,11,10.6L11.29,10A6,6,0,0,0,12,7.16V5.85a2,2,0,0,0-4,0v1.3Zm9,10.43a2,2,0,0,0-1.28-1.87L11,13.92v-1.1A3,3,0,0,1,10,13H10a3,3,0,0,1-1-.18v1.1L4.26,15.76A2,2,0,0,0,3,17.62V19H17V17.58Z"></path>
+      </g></svg></li-icon>
+        </button>
+        <button class="org-alumni-profile-card__connect-button-expanded" data-ember-action="" data-ember-action-15900="15900">
+          <span class="org-alumni-profile-card__link-text Sans-17px-black-70%">Connect</span>
+        </button>
+          </li>
+  </ul>
+</div>
+    </li>
+</ul>
+
+<div id="ember13128" class="ember-view"><div id="ember13129" class="ember-view"><!----></div></div>
+
+  <li-icon aria-hidden="true" type="loader" class="org-alumni-profiles-module__profile-loader" size="small"><div class="artdeco-spinner"><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span><span class="artdeco-spinner-bars"></span></div></li-icon>
+</div>
+</main>
+</div>
+
+</div>
+
+
+</div>
+
+<!---->
+</div>
+
+<div id="li-modal-container"></div>
+
+<artdeco-toasts id="artdeco-toasts-outlet" class="artdeco-toasts ember-view"><ul class="artdeco-toasts-container" data-ember-action="" data-ember-action-971="971" data-ember-action-972="972">
+<!----></ul>
+</artdeco-toasts>
+
+<div id="artdeco-hoverable-outlet">  <artdeco-hovercard-content id="artdeco-hoverable-artdeco-gen-42" tabindex="-1" role="tooltip" placement="top" aria-hidden="true" class="msg-overlay-bubble-header__settings-hovercard ">
+    <div class="artdeco-hovercard-content-container">
+                <div class="pr4 mb2">
+            <h3 class="Sans-17px-black-85%-semibold pb2">Messaging Settings</h3>
+            <div class="display-flex align-items-baseline">
+              <p for="msg-overlay-bubble-header__popups-toggle" class="Sans-15px-black-70% flex-grow-1">
+                Always open new messages
+              </p>
+              <div id="ember1434" class="toggle-24dp ember-view"><input data-control-name="overlay.instant_messaging_setting_off" tabindex="0" type="checkbox" id="msg-overlay-bubble-header__popups-toggle" class="ember-checkbox state-checkbox visually-hidden ember-view">
+
+<label for="msg-overlay-bubble-header__popups-toggle">
+    <p aria-hidden="true" class="checked Sans-15px-black-70%">On</p>
+
+    <span class="visually-hidden">Toggle setting to always open new messages</span>
+</label>
+</div>
+            </div>
+          </div>
+          <div class="msg-overlay-bubble-header__settings-links display-flex align-items-center pr4 pt3">
+<a target="_blank" href="/psettings/presence" id="ember1441" class="msg-overlay-bubble-header__settings-links--active-status link-without-hover-visited flex-grow-1 ember-view">              <p class="Sans-15px-black-70%-semibold">Active Status Settings</p>
+</a>            <li-icon aria-hidden="true" type="chevron-right-icon" size="small"><svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon"><g class="small-icon" style="fill-opacity: 1">
+        <path d="M9,8L5,2.07,6.54,1l4.2,6.15a1.5,1.5,0,0,1,0,1.69L6.54,15,5,13.93Z"></path>
+      </g></svg></li-icon>
+          </div>
+
+    </div>
+<!---->  </artdeco-hovercard-content>
+</div>
+
+<!---->
+
+<!---->
+  <div id="ember985" class="entity-hovercard-container hidden ember-view"><div role="tooltip" tabindex="-1" class="entity-hovercard  ">
+    <section class="entity-hovercard__loading-state">
+      Loading…
+    </section>
+  </div>
+</div>
+
+<!---->
+<!---->
+<div id="type-ahead-wormhole" class="type-ahead type-ahead-wormhole">
+</div>
+
+<div id="toast-wormhole" class="toast-wormhole">
+</div>
+
+
+  <iframe sandbox="allow-scripts" style="display:none;" src="//radar.cedexis.com/1/11326/radar.html">
+  </iframe>
+</div>

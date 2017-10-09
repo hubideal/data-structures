@@ -19,7 +19,7 @@ var addresses = JSON.parse(fs.readFileSync('addArray.json', 'utf8')); //converte
 async.eachSeries(addresses, function(value, callback) {
     var apiRequest = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + value.split(' ').join('+') + '&key=' + apiKey;  //used to gather data from the json file addArray
     var thisMeeting = new Object;  //create new object 
-    thisMeeting.address = value;  
+    thisMeeting.streeAddress = value;  
     request(apiRequest, function(err, resp, body) {  //enters address from addArray json file to Google Maps
         if (err) {throw err;}
         thisMeeting.latLong = JSON.parse(body).results[0].geometry.location;  //enters latlong to jsonfile

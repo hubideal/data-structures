@@ -1,0 +1,92 @@
+[
+          {
+                    "_id": "59d40ba89956b652b2df06d5",
+                    "address": "252 West 46th Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.7593263,
+                              "lng": -73.98727389999999
+                    },
+                    "googleAdd": "252 W 46th St, New York, NY 10036, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06d6",
+                    "address": "303 West 42nd Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.7576553,
+                              "lng": -73.9899274
+                    },
+                    "googleAdd": "303 W 42nd St, New York, NY 10036, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06d7",
+                    "address": "303 West 42nd Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.7576553,
+                              "lng": -73.9899274
+                    },
+                    "googleAdd": "303 W 42nd St, New York, NY 10036, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06d8",
+                    "address": "305 7th Avenue, New York, NY",
+                    "latLong": {
+                              "lat": 40.74664569999999,
+                              "lng": -73.9933636
+                    },
+                    "googleAdd": "305 7th Ave, New York, NY 10001, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06d9",
+                    "address": "1 West 53rd Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.76083209999999,
+                              "lng": -73.9763834
+                    },
+                    "googleAdd": "1 W 53rd St, New York, NY 10019, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06da",
+                    "address": "303 West 42nd Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.7576553,
+                              "lng": -73.9899274
+                    },
+                    "googleAdd": "303 W 42nd St, New York, NY 10036, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06db",
+                    "address": "133 West 46th Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.75811179999999,
+                              "lng": -73.9834391
+                    },
+                    "googleAdd": "133 W 46th St, New York, NY 10036, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06dc",
+                    "address": "441 West 26th Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.749552,
+                              "lng": -74.0022443
+                    },
+                    "googleAdd": "441 W 26th St, New York, NY 10001, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06dd",
+                    "address": "446 West 33rd Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.7533175,
+                              "lng": -73.9989001
+                    },
+                    "googleAdd": "446 West 33rd Street, New York, NY 10001, USA"
+          },
+          {
+                    "_id": "59d40ba89956b652b2df06de",
+                    "address": "252 West 46th Street, New York, NY",
+                    "latLong": {
+                              "lat": 40.7593263,
+                              "lng": -73.98727389999999
+                    },
+                    "googleAdd": "252 W 46th St, New York, NY 10036, USA"
+          }
+]

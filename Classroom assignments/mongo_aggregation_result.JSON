@@ -1,0 +1,10 @@
+[
+    {
+        "_id": "Not In Service",
+        "avgbikes": 0
+    },
+    {
+        "_id": "In Service",
+        "avgbikes": 0
+    }
+]

@@ -1,9 +1,9 @@
 var fs = require('fs');
 
 
-var content = fs.readFileSync('meetArray.txt', 'utf8');
+var content = fs.readFileSync('output04.txt', 'utf8');
 
 console.log(content);
 
-fs.writeFileSync('meetArray.json', JSON.stringify(content.trim()));
+fs.writeFileSync('meetAAArray.json', JSON.stringify(content));
 
