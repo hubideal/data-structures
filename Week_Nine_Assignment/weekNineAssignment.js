@@ -3,16 +3,16 @@ const { Client } = require('pg');
 
 // PARTICLE PHOTON
 var device_id = "39002b000247353137323334"; //process.env.PHOTON_ID;
-var access_token = "ff90e7b06a6dc44ec56dd14987a34b57a20d68d8"; //process.env.PHOTON_TOKEN;
+var access_token = process.env.PHOTON_TOKEN;
 var particle_variable = 'json';
 var device_url = 'https://api.particle.io/v1/devices/' + device_id + '/' + particle_variable + '?access_token=' + access_token;//or json or particle_tilt
 
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
 db_credentials.user = 'hubdata';
-db_credentials.host = "hubsensor.codfsrmcdblh.us-east-1.rds.amazonaws.com"; //process.env.AWSRDS_EP;
+db_credentials.host = process.env.AWSRDS_EP;
 db_credentials.database = 'pugSensor';
-db_credentials.password = 'Datavisual'; //process.env.AWSRDS_PW;
+db_credentials.password = process.env.AWSRDS_PW;
 db_credentials.port = 5432;
 
 var getAndWriteData = function() {
