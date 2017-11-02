@@ -5,9 +5,9 @@ const { Pool } = require('pg');
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
 db_credentials.user = 'hubdata';
-db_credentials.host = 'hubsensor.codfsrmcdblh.us-east-1.rds.amazonaws.com';  //IMPORTANT when entering into the terminal export AWSRDS_EP=##### - REMOVE quote marks!!!
+db_credentials.host = '';  //IMPORTANT when entering into the terminal export AWSRDS_EP=##### - REMOVE quote marks!!!
 db_credentials.database = 'pugSensor';
-db_credentials.password = 'Datavisual';  //IMPORTANT when entering into the terminal export AWSRDS_PS=##### - REMOVE quote marks!!!
+db_credentials.password = '';  //IMPORTANT when entering into the terminal export AWSRDS_PS=##### - REMOVE quote marks!!!
 db_credentials.port = 5432;
 
 app.get('/', function(req, res) {
