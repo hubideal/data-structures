@@ -4,10 +4,10 @@ const { Pool } = require('pg');
 
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
-db_credentials.user = 'hubdata';
-db_credentials.host = '';
-db_credentials.database = 'pugSensor';
-db_credentials.password = '';
+db_credentials.user = 'datahub';
+db_credentials.host = process.env.AWSRDS_EP;
+db_credentials.database = 'doralee';
+db_credentials.password = process.env.AWSRDS_PW;
 db_credentials.port = 5432;
 
 app.get('/', function(req, res) {
@@ -18,8 +18,8 @@ app.get('/', function(req, res) {
     var q = `SELECT EXTRACT(DAY FROM timehalltilt AT TIME ZONE 'America/New_York') as sensorday, 
              EXTRACT(MONTH FROM timehalltilt AT TIME ZONE 'America/New_York') as sensormonth, 
              count(*) as num_obs,
-             count(tilt) FILTER (WHERE tilt = TRUE) AS closed,
-             count(hall) FILTER (WHERE hall = TRUE) AS closed
+             count(tilt) FILTER (WHERE tilt = TRUE) AS puginside,
+             count(hall) FILTER (WHERE hall = TRUE) AS puglatch
              FROM pugdata
              GROUP BY sensormonth, sensorday;`;
              

@@ -5,9 +5,9 @@ const { Pool } = require('pg');
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
 db_credentials.user = 'hubdata';
-db_credentials.host = 'hubsensor.codfsrmcdblh.us-east-1.rds.amazonaws.com';
+db_credentials.host = '';
 db_credentials.database = 'pugSensor';
-db_credentials.password = 'Datavisual';
+db_credentials.password = '';
 db_credentials.port = 5432;
 
 app.get('/', function(req, res) {
