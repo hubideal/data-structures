@@ -11,9 +11,9 @@ var device_url = 'https://api.particle.io/v1/devices/' + device_id + '/' + parti
 // AWS RDS POSTGRESQL INSTANCE
 //The variables below refer to my AWS account.   This will allow me to add data to the Postgresql.  I kpet my host endpoint and password private.   
 var db_credentials = new Object();
-db_credentials.user = 'datahub';
+db_credentials.user = 'hubdata';
 db_credentials.host = process.env.AWSRDS_EP;  //IMPORTANT when entering into the terminal export AWSRDS_EP=##### - REMOVE quote marks!!!
-db_credentials.database = 'doralee';
+db_credentials.database = 'pugSensor';
 db_credentials.password = process.env.AWSRDS_PW;  //IMPORTANT when entering into the terminal export AWSRDS_PS=##### - REMOVE quote marks!!!
 db_credentials.port = 5432;
 
