@@ -1,15 +1,15 @@
 var fs = require('fs');
 
-var dbName = 'aaNewData';
-var collName = 'newSchedule';
+var dbName = 'steve';
+var collName = 'meetings';
 
 // Connection URL
-var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
+var url = 'mongodb://hubbs654:V2hYRNpJ8VNAMai6@cluster0-shard-00-00-rzdcl.mongodb.net:27017,cluster0-shard-00-01-rzdcl.mongodb.net:27017,cluster0-shard-00-02-rzdcl.mongodb.net:27017/steve?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin';
 
 
 
 var myQuerry = [
-    { $match: { meetingDay : 'Tuesdays', startHourQ : { $gte : 19 }}},
+    { $match: { $or: [{meetingDay : 'Tuesdays', startHourQ : { $gte : 19 }}, { meetingDay : 'Wednesdays', startHourQ : { $lte : 4 } }] }}
     ];
 // Retrieve
 var MongoClient = require('mongodb').MongoClient;
@@ -31,3 +31,4 @@ MongoClient.connect(url, function(err, db) {
     });
 
 }); //MongoClient.connect
+

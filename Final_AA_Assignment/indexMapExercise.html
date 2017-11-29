@@ -1,4 +1,42 @@
-[
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>AA Meetings in Manhattan</title>
+    <style>
+        html,
+        body,
+        #map-canvas {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #firstHeading {
+            font-size: 100%;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD62Q5cDxoyj5TLxSfQd_8_tbbz60QWIjE&v=3.exp&signed_in=true"></script>
+    <script>
+        var latNow = 40.736354;
+        var longNow = -73.999175;
+
+
+        function initialize() {
+            var mapOptions = {
+                zoom: 16,
+                center: new google.maps.LatLng(latNow, longNow)
+            }
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+
+            setMarkers(map, meetings);
+        }
+
+        // var meetings  
+        var meetings = [
     {
         "_id": "59f53d018ea53f319d918787",
         "id": 729047,
@@ -1597,3 +1635,54 @@
         "googleAdd": "715 W 179th St, New York, NY 10033, USA"
     }
 ]
+         
+       
+        
+        function makeContent(cont) {
+            var contentHolder = '<div id="content">' +
+                '<div id="siteNotice">' +
+                '</div>';
+            contentHolder = contentHolder + '<h2>' + cont.googleAdd.substr(0, cont.googleAdd.indexOf(',')) + '</h2>';
+            contentHolder = contentHolder + '<h1 id="firstHeading" class="firstHeading">';
+            contentHolder = contentHolder + cont.meetingTitle + '</h1>';
+            contentHolder = contentHolder + cont.meetingDay + '<br>';
+            contentHolder = contentHolder + cont.startTimeWeb + ' ' + cont.meetType + '<br>';
+            contentHolder = contentHolder + '</p>';  
+            contentHolder = contentHolder + '<div class="iw-bottom-gradient"></div>';    
+            return contentHolder;
+        }
+
+        function setMarkers(map, locations) {
+            // Add markers to the map
+            var infowindow = new google.maps.InfoWindow({
+                maxWidth: 200
+            });
+
+            for (var i = 0; i < meetings.length; i++) {
+                var meeting = meetings[i].latLong;
+                var myLatLng = new google.maps.LatLng(meeting.lat, meeting.lng);
+                var contentWindow = makeContent(meetings[i]);
+
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: "Click for meeting info",
+                    content: contentWindow,
+                });
+
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.setContent(this.content);
+                    infowindow.open(map, this);
+                });
+            }
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+
+<body>
+    <div id="map-canvas"></div>
+</body>
+
+</html>
