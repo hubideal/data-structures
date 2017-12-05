@@ -13,7 +13,7 @@
             margin: 0;
             padding: 0;
         }
-        
+
         #firstHeading {
             font-size: 100%;
         }
@@ -35,8 +35,8 @@
             setMarkers(map, meetings);
         }
 
-        // var meetings  
-        var meetings = 
-         
-       
+        // var meetings
+        var meetings =
+
+
        
