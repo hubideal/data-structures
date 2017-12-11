@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+    <span id="uptime"></span><br>
+    <span id="tstamp"></span>
+
+    <br><br>
+    <button onclick="start()">Connect</button>
+
+    <script type="text/javascript">
+    function start() {
+
+        document.getElementById("uptime").innerHTML = "Waiting for data...";
+        var deviceID = "39002b000247353137323334";
+        var accessToken = "cd4edd277b0207e03f5a474806fc72eb7db4428f";
+        var eventSource = new eventSource("https://api.spark.io/v1/devices/" + deviceID + "/events/?access_token=" + accessToken);
+
+        eventSource.addEventListener('open', function(e) {
+            console.log("Opened!"); },false);
+
+        eventSource.addEventListener('error', function(e) {
+            console.log("Errored!"); },false);
+
+        eventSource.addEventListener('Uptime', function(e) {
+            var rawData = JSON.parse(e.data);
+            var parsedData = JSON.parse(rawData.data);
+            var tempSpan = document.getElementById("uptime");
+            var tsSpan   = document.getElementById("tstamp");
+            tempSpan.innerHTML = "Core: " + rawData.coreid + " JSON Data: " + parsedData.Hours + ", " + parsedData.Minutes + ", " + parsedData.Seconds +
+                     " (" + (parsedData.Seconds + parsedData.Minutes*60 + parsedData.Hours*3600) + " secs)";
+            tempSpan.style.fontSize = "28px";
+            tsSpan.innerHTML = "At timestamp " + rawData.published_at;
+            tsSpan.style.fontSize = "9px";
+        }, false);
+    }
+    </script>
+</body>
+</html>
