@@ -2,7 +2,7 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 
 // load the thesis text file into a variable, `content`
-var content = fs.readFileSync('wikiResultsParsons.txt');  //searched Parsons Design Entrepreneur  357 results
+var content = fs.readFileSync('wikiParsonFound.txt');  //searched Parsons Design Entrepreneur  357 results
 
 // load `content` into a cheerio object
 var $ = cheerio.load(content);
@@ -16,4 +16,4 @@ $('li a').each(function(i, elem) {
     eList.push(title);
 });
 
-fs.writeFileSync('entParList.json', JSON.stringify(eList));
+fs.writeFileSync('wikiParsonFoundList.json', JSON.stringify(eList));

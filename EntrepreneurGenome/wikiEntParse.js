@@ -1,7 +1,7 @@
 var fs 	    = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
-var eList = JSON.parse(fs.readFileSync('entTestList.json','utf8'));
+var eList = JSON.parse(fs.readFileSync('wikiParsonFoundListFINAL.json','utf8'));//files i parsed:  wikiTNSEntListFINAL.json entParList.json  wikiTNSFoundListFINAL1.json    wikiTNSFoundListFINAL2.json     wikiParsonFoundListFINAL.json 
 var websites =[];
 
 for(var i = 0; i < eList.length; i++) {
@@ -18,12 +18,12 @@ for(var i = 0; i < eList.length; i++) {
 
 		// Assign the page elements to a variables
 		var title = $("h1").html();
-		
+	
 		var birthDay = $(".bday").html();
 		
-		var test = $('div.mw-parser-output').html();
-		
 		var test2 = $('div.mw-parser-output p').html();
+		
+		var test = $('div.mw-parser-output').html();
 		
 		var test3 = $('div.mw-parser-output table.infobox').html();
 
@@ -37,10 +37,9 @@ for(var i = 0; i < eList.length; i++) {
 		// Assign values to an object
 		var contentData = {
 			wikiTitle: title,
-			wikiContent: wikiString,
+			wikiTest2: test2,
 			birthDate: birthDay,
 			wikiTest: test,
-			wikiTest2: test2,
 			wikiTable: test3,
 		};
 
@@ -52,7 +51,7 @@ for(var i = 0; i < eList.length; i++) {
 
 		// Saves data as a json file when all battles are scraped
 		if(websites.length === eList.length) {
-			saveFile(websites, "wiki-content-test-entrepreneurs");
+			saveFile(websites, "wikiParsonsFound");
 		}
 		
 	});
