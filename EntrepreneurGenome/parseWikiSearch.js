@@ -1,3 +1,5 @@
+// This js file contains the code that parsed through my online wiki search which was saved as a txt file.  It gve me the names 
+
 var fs = require('fs');
 var cheerio = require('cheerio');
 

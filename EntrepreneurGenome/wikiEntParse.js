@@ -1,3 +1,5 @@
+//this file contains the code that was really the workhorse of the wiki search.  taking the names identified in the wiki search, I went to each site of the list of names and scraped all of the contents of their websites into a json file.  
+
 var fs 	    = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
@@ -17,15 +19,15 @@ for(var i = 0; i < eList.length; i++) {
 
 
 		// Assign the page elements to a variables
-		var title = $("h1").html();
+		var title = $("h1").html();  //this is scraping the persons name for the json file
 	
-		var birthDay = $(".bday").html();
+		var birthDay = $(".bday").html();  //some sites had birthdays.  so I included those as well.
 		
-		var test2 = $('div.mw-parser-output p').html();
+		var test2 = $('div.mw-parser-output p').html();  //test2 is a bad name, but I didn't change it after testing.  This variable includes the short bio.
 		
-		var test = $('div.mw-parser-output').html();
+		var test = $('div.mw-parser-output').html(); //test is all of the content from the website (that pertains to the individual)
 		
-		var test3 = $('div.mw-parser-output table.infobox').html();
+		var test3 = $('div.mw-parser-output table.infobox').html(); //test3 includes the table of information. 
 
 
 	console.log(title);
@@ -36,11 +38,11 @@ for(var i = 0; i < eList.length; i++) {
 
 		// Assign values to an object
 		var contentData = {
-			wikiTitle: title,
-			wikiTest2: test2,
-			birthDate: birthDay,
-			wikiTest: test,
-			wikiTable: test3,
+			wikiTitle: title,   //name
+			wikiTest2: test2, //short bio
+			birthDate: birthDay,  //birthday
+			wikiTest: test,  //all of the content
+			wikiTable: test3, //the table with valuable information
 		};
 
 
@@ -57,7 +59,7 @@ for(var i = 0; i < eList.length; i++) {
 	});
 }
 
-// Saves file in JSON format
+// Saves file in JSON format  HELPFUL code for future projects.
 function saveFile(data, fileName) {
 	outputRoute = __dirname + "/" + fileName + ".json";
 

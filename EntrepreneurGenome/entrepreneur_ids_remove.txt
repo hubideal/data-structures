@@ -1,0 +1,198 @@
+"wikiTitle" : "Suzanne Seggerman"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a37") }
+{ "_id" : ObjectId("5a482c1211413c9536a4349e") }
+
+"wikiTitle" : "Sabine Seymour"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a6b") }
+{ "_id" : ObjectId("5a482c1211413c9536a434a6") }
+
+"wikiTitle" : "Conor Russomanno"
+{ "_id" : ObjectId("5a482c1211413c9536a43494") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fac") }
+
+"wikiTitle" : "Ghitta Caiserman-Roth"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa5") }
+
+"wikiTitle" : "Sheila Johnson"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a3a") }
+{ "_id" : ObjectId("5a482c1211413c9536a43489") }
+
+"Ris&#xEB; Wilson"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fd9") }
+
+"Mary Jane Marcasiano"
+{ "_id" : ObjectId("5a482c1211413c9536a434aa") }
+
+"wikiTitle" : "Steinunn Sigurdardottir"
+{ "_id" : ObjectId("5a482cc802f7dd954c360faf") }
+
+"wikiTitle" : "Joseph Sequenzia"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fb0") }
+
+"wikiTitle" : "Eric Goode"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fbf") }
+
+"wikiTitle" : "Cecilia Dean”
+{ "_id" : ObjectId("5a482cc802f7dd954c360fe9") }
+
+"wikiTitle" : "Sarah Austin (Internet celebrity)"
+{ "_id" : ObjectId("5a482c1211413c9536a43491") }
+
+"wikiTitle" : "Stephan Van Dam"
+{ "_id" : ObjectId("5a482c1211413c9536a434a9") }
+
+"wikiTitle" : "Robert Tonner"
+{ "_id" : ObjectId("5a482cc802f7dd954c360f9c") }
+
+"wikiTitle" : "Hinda Miller"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fbc") }
+
+"wikiTitle" : "Jeremiah Goodman"
+{ "_id" : ObjectId("5a482c1211413c9536a43484") }
+
+"wikiTitle" : "Ai Weiwei"
+{ "_id" : ObjectId("5a482cc802f7dd954c360ff2") }
+
+"wikiTitle" : "Paul Gregory (lighting designer)"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fd1") }
+
+"wikiTitle" : "Ayah Bdeir"
+{ "_id" : ObjectId("5a482c1211413c9536a4348a") }
+
+"wikiTitle" : "Kay Unger"
+{ "_id" : ObjectId("5a482c1211413c9536a434a8") }
+
+"wikiTitle" : "Marc Jacobs"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fc0") }
+
+"wikiTitle" : "Mimi So"
+{ "_id" : ObjectId("5a482c1211413c9536a434a7") }
+
+"wikiTitle" : "Jazm&#xED;n Chebar"
+{ "_id" : ObjectId("5a482c1211413c9536a434c9") }
+
+"wikiTitle" : "Susan Weber (historian)"
+{ "_id" : ObjectId("5a482cc802f7dd954c360f9f") }
+
+"wikiTitle" : "Kelly Chen"
+{ "_id" : ObjectId("5a482c1211413c9536a4348d") }
+
+"wikiTitle" : "Paul Goldberger"
+{ "_id" : ObjectId("5a482cc802f7dd954c360f99") }
+
+"wikiTitle" : "Alfred Sung"
+{ "_id" : ObjectId("5a482cc802f7dd954c360f98") }
+
+"wikiTitle" : "Rob Zombie"
+{ "_id" : ObjectId("5a482cc802f7dd954c360ff1") }
+
+"wikiTitle" : "Sissel Tolaas"
+{ "_id" : ObjectId("5a482c1211413c9536a434b9") }
+
+"wikiTitle" : "Agustina Jacobi"
+{ "_id" : ObjectId("5a482c1211413c9536a434ca") }
+
+"wikiTitle" : "Ethel Myers"
+{ "_id" : ObjectId("5a482c1211413c9536a43486") }
+
+"wikiTitle" : "Andrea Geyer"
+{ "_id" : ObjectId("5a482c1211413c9536a4349d") }
+
+"wikiTitle" : "Alex Woo"
+{ "_id" : ObjectId("5a482cc802f7dd954c360f9e") }
+
+"wikiTitle" : "Jane Jacobs"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a45") }
+
+"wikiTitle" : "Tom Monaghan"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a2e") }
+
+"wikiTitle" : "Kristin Prim"
+{ "_id" : ObjectId("5a482cc802f7dd954c360faa") }
+
+"wikiTitle" : "Jim Moran (businessman)"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a6c") }
+
+"wikiTitle" : "Matthew Waldman"
+{ "_id" : ObjectId("5a482c1211413c9536a43482") }
+
+"wikiTitle" : "Proenza Schouler"
+{ "_id" : ObjectId("5a482cc802f7dd954c360f96") }
+
+"wikiTitle" : "Adam Humphreys"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a25") }
+
+"wikiTitle" : "James Polshek"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fad") }
+
+"wikiTitle" : "Arel Moodie"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a55") }
+
+"wikiTitle" : "Miroslava Duma"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fc9") }
+
+"wikiTitle" : "Jasper Johns"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fe5") }
+
+"wikiTitle" : "Lorraine Fox"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fc2") }
+
+"wikiTitle" : "Jen Kao"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa3") }
+
+"wikiTitle" : "Brian Camelio"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a16") }
+
+"wikiTitle" : "James Monaco"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a4d") }
+
+"wikiTitle" : "Andrea Lieberman"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fae") }
+
+"wikiTitle" : "Shawn David Nelson"
+{ "_id" : ObjectId("5a482c1211413c9536a434a5") }
+
+"wikiTitle" : "Margaret Wallace"
+{ "_id" : ObjectId("5a482c1211413c9536a434b8") }
+
+"wikiTitle" : "Mark Greif"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a39") }
+
+"wikiTitle" : "Andrew Baron"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa4") }
+
+"wikiTitle" : "Berhanu Nega"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a19") }
+
+"wikiTitle" : "Alexandra von F&#xFC;rstenberg"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fda") }
+
+"wikiTitle" : "Jim Stanford"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6d6") }
+
+"wikiTitle" : "Lauren Jones"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fb6") }
+
+"wikiTitle" : "Dorian Corey"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa2") }
+
+"wikiTitle" : "PJ Loughran"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fd2") }
+
+"wikiTitle" : "Bill Zanker"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a2c") }
+
+"wikiTitle" : "Rodney Durso"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa9") }
+
+"wikiTitle" : "David-Simon Dayan"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fab") }
+
+"wikiTitle" : "John Galliano"
+{ "_id" : ObjectId("5a482c1211413c9536a43490") }
+
+"wikiTitle" : "Alvin Toffler"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a17") }
+
+"wikiTitle" : "Van Day Truex"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fb2") }

@@ -1,0 +1,454 @@
+db.entrepreneurs.aggregate(
+...     {"$group" : { "_id": "$wikiTitle", "count": { "$sum": 1 } } },
+...     {"$match": {"_id":{ "$ne" : null } , "count" : {"$gt": 1} } }, 
+...     {"$sort": {"count" : -1} },
+...     {"$project": {"wikiTitle" : "$_id", "_id" : 0} }     
+... )
+
+
+Duplicates
+{ "wikiTitle" : "Suzanne Seggerman" }
+{ "wikiTitle" : "Sabine Seymour" }
+{ "wikiTitle" : "Conor Russomanno" }
+{ "wikiTitle" : "Sheila Johnson" }
+{ "wikiTitle" : "Ghitta Caiserman-Roth" }
+{ "wikiTitle" : "Ris&#xEB; Wilson" }
+{ "wikiTitle" : "Mary Jane Marcasiano" }
+{ "wikiTitle" : "Steinunn Sigurdardottir" }
+{ "wikiTitle" : "Joseph Sequenzia" }
+{ "wikiTitle" : "Eric Goode" }
+{ "wikiTitle" : "Cecilia Dean" }
+{ "wikiTitle" : "Sarah Austin (Internet celebrity)" }
+{ "wikiTitle" : "Stephan Van Dam" }
+{ "wikiTitle" : "Robert Tonner" }
+{ "wikiTitle" : "Hinda Miller" }
+{ "wikiTitle" : "Jeremiah Goodman" }
+{ "wikiTitle" : "Ai Weiwei" }
+{ "wikiTitle" : "Paul Gregory (lighting designer)" }
+{ "wikiTitle" : "Ayah Bdeir" }
+{ "wikiTitle" : "Kay Unger" }
+{ "wikiTitle" : "Marc Jacobs" }
+{ "wikiTitle" : "Mimi So" }
+{ "wikiTitle" : "Jazm&#xED;n Chebar" }
+{ "wikiTitle" : "Susan Weber (historian)" }
+{ "wikiTitle" : "Kelly Chen" }
+{ "wikiTitle" : "Paul Goldberger" }
+{ "wikiTitle" : "Alfred Sung" }
+{ "wikiTitle" : "Rob Zombie" }
+{ "wikiTitle" : "Sissel Tolaas" }
+{ "wikiTitle" : "Agustina Jacobi" }
+{ "wikiTitle" : "Ethel Myers" }
+{ "wikiTitle" : "Andrea Geyer" }
+{ "wikiTitle" : "Alex Woo" }
+{ "wikiTitle" : "Jane Jacobs" }
+{ "wikiTitle" : "Tom Monaghan" }
+{ "wikiTitle" : "Kristin Prim" }
+{ "wikiTitle" : "Jim Moran (businessman)" }
+{ "wikiTitle" : "Matthew Waldman" }
+{ "wikiTitle" : "Proenza Schouler" }
+{ "wikiTitle" : "Adam Humphreys" }
+{ "wikiTitle" : "James Polshek" }
+{ "wikiTitle" : "Arel Moodie" }
+{ "wikiTitle" : "Miroslava Duma" }
+{ "wikiTitle" : "Jasper Johns" }
+{ "wikiTitle" : "Lorraine Fox" }
+{ "wikiTitle" : "Jen Kao" }
+{ "wikiTitle" : "Brian Camelio" }
+{ "wikiTitle" : "James Monaco" }
+{ "wikiTitle" : "Andrea Lieberman" }
+{ "wikiTitle" : "Shawn David Nelson" }
+{ "wikiTitle" : "Margaret Wallace" }
+{ "wikiTitle" : "Mark Greif" }
+{ "wikiTitle" : "Andrew Baron" }
+{ "wikiTitle" : "Berhanu Nega" }
+{ "wikiTitle" : "Alexandra von F&#xFC;rstenberg" }
+{ "wikiTitle" : "Jim Stanford" }
+{ "wikiTitle" : "Lauren Jones" }
+{ "wikiTitle" : "Dorian Corey" }
+{ "wikiTitle" : "PJ Loughran" }
+{ "wikiTitle" : "Bill Zanker" }
+{ "wikiTitle" : "Rodney Durso" }
+{ "wikiTitle" : "David-Simon Dayan" }
+{ "wikiTitle" : "John Galliano" }
+{ "wikiTitle" : "Alvin Toffler" }
+{ "wikiTitle" : "Van Day Truex" }
+
+db.entrepreneurs.find({ "wikiTitle" : "Van Day Truex" }, {"$print":"_id"})
+
+"wikiTitle" : "Suzanne Seggerman"
+First:  { "_id" : ObjectId("5a482ac60f67dd94f939dbd7"}
+"_id" : ObjectId("5a482b8a16bd379522c29a37"
+"_id" : ObjectId("5a482c1211413c9536a4349e"
+
+"wikiTitle" : "Sabine Seymour"
+first:  {"_id" : ObjectId("5a482b13b3de3f950d64c69b"}
+"_id" : ObjectId("5a482b8a16bd379522c29a6b",
+"_id" : ObjectId("5a482c1211413c9536a434a6"
+
+"wikiTitle" : "Conor Russomanno"
+first:  "_id" : ObjectId("5a482b8a16bd379522c29a54"), 
+"_id" : ObjectId("5a482c1211413c9536a43494"
+"_id" : ObjectId("5a482cc802f7dd954c360fac
+
+
+
+"wikiTitle" : "Ghitta Caiserman-Roth"
+first: { "_id" : ObjectId("5a482ac60f67dd94f939dbc9") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa5") }
+
+"wikiTitle" : "Sheila Johnson"
+first:  { "_id" : ObjectId("5a482ac60f67dd94f939dbdc") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a3a") }
+{ "_id" : ObjectId("5a482c1211413c9536a43489") }
+
+"Ris&#xEB; Wilson"
+first:  { "_id" : ObjectId("5a482c1211413c9536a434da") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fd9") }
+
+"Mary Jane Marcasiano"
+first: { "_id" : ObjectId("5a482b8a16bd379522c29a70") }
+{ "_id" : ObjectId("5a482c1211413c9536a434aa") }
+
+"wikiTitle" : "Steinunn Sigurdardottir"
+first: { "_id" : ObjectId("5a482c1211413c9536a434c7") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360faf") }
+
+"wikiTitle" : "Joseph Sequenzia"
+first: { "_id" : ObjectId("5a482c1211413c9536a434c6") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fb0") }
+
+"wikiTitle" : "Eric Goode" 
+first:  { "_id" : ObjectId("5a482c1211413c9536a434bc") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fbf") }
+
+"wikiTitle" : "Cecilia Dean?
+first:  { "_id" : ObjectId("5a482c1211413c9536a434ab") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fe9") }
+
+"wikiTitle" : "Sarah Austin (Internet celebrity)" 
+first:  { "_id" : ObjectId("5a482b8a16bd379522c29a2a") }
+{ "_id" : ObjectId("5a482c1211413c9536a43491") }
+
+"wikiTitle" : "Stephan Van Dam" 
+first:  { "_id" : ObjectId("5a482b8a16bd379522c29a6a") }
+{ "_id" : ObjectId("5a482c1211413c9536a434a9") }
+
+"wikiTitle" : "Robert Tonner"
+{ "_id" : ObjectId("5a482c1211413c9536a434ac") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360f9c") }
+
+"wikiTitle" : "Hinda Miller" 
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6e1") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fbc") }
+
+"wikiTitle" : "Jeremiah Goodman"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a64") }
+{ "_id" : ObjectId("5a482c1211413c9536a43484") }
+
+"wikiTitle" : "Ai Weiwei"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6c7") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360ff2") }
+
+"wikiTitle" : "Paul Gregory (lighting designer)"
+{ "_id" : ObjectId("5a482cc802f7dd954c360fcd") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fd1") }
+
+"wikiTitle" : "Ayah Bdeir"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a50") }
+{ "_id" : ObjectId("5a482c1211413c9536a4348a") }
+
+"wikiTitle" : "Kay Unger"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a30") }
+{ "_id" : ObjectId("5a482c1211413c9536a434a8") }
+
+"wikiTitle" : "Marc Jacobs" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbba") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fc0") }
+
+"wikiTitle" : "Mimi So"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a38") }
+{ "_id" : ObjectId("5a482c1211413c9536a434a7") }
+
+"wikiTitle" : "Jazm&#xED;n Chebar"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a60") }
+{ "_id" : ObjectId("5a482c1211413c9536a434c9") }
+
+"wikiTitle" : "Susan Weber (historian)"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbae") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360f9f") }
+
+"wikiTitle" : "Kelly Chen"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a24") }
+{ "_id" : ObjectId("5a482c1211413c9536a4348d") }
+
+"wikiTitle" : "Paul Goldberger" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbb3") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360f99") }
+
+"wikiTitle" : "Alfred Sung"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbc1") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360f98") }
+
+"wikiTitle" : "Rob Zombie"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dc0b") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360ff1") }
+
+"wikiTitle" : "Sissel Tolaas"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a22") }
+{ "_id" : ObjectId("5a482c1211413c9536a434b9") }
+
+"wikiTitle" : "Agustina Jacobi"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a69") }
+{ "_id" : ObjectId("5a482c1211413c9536a434ca") }
+
+"wikiTitle" : "Ethel Myers"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a6e") }
+{ "_id" : ObjectId("5a482c1211413c9536a43486") }
+
+"wikiTitle" : "Andrea Geyer"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a67") }
+{ "_id" : ObjectId("5a482c1211413c9536a4349d") }
+
+"wikiTitle" : "Alex Woo" 
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6e6") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360f9e") }
+
+"wikiTitle" : "Jane Jacobs"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6d7") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a45") }
+
+"wikiTitle" : "Tom Monaghan"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6d0") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a2e") }
+
+"wikiTitle" : "Kristin Prim" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbdf") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360faa") }
+
+"wikiTitle" : "Jim Moran (businessman)"
+{ "_id" : ObjectId("5a482b8a16bd379522c29a52") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a6c") }
+
+"wikiTitle" : "Matthew Waldman" 
+{ "_id" : ObjectId("5a482b8a16bd379522c29a61") }
+{ "_id" : ObjectId("5a482c1211413c9536a43482") }
+
+"wikiTitle" : "Proenza Schouler" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbb6") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360f96") }
+
+"wikiTitle" : "Adam Humphreys"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbdd") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a25") }
+
+"wikiTitle" : "James Polshek" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbf7") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fad") }
+
+"wikiTitle" : "Arel Moodie" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbfd") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a55") }
+
+"wikiTitle" : "Miroslava Duma"
+{ "_id" : ObjectId("5a482c1211413c9536a43485") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fc9") }
+
+"wikiTitle" : "Jasper Johns"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbe9") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fe5") }
+
+"wikiTitle" : "Lorraine Fox"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6af") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fc2") }
+
+"wikiTitle" : "Jen Kao"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c69e") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa3") }
+
+"wikiTitle" : "Brian Camelio"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbc2") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a16") }
+
+"wikiTitle" : "James Monaco"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c69c") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a4d") }
+
+"wikiTitle" : "Andrea Lieberman" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbfc") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fae") }
+
+"wikiTitle" : "Shawn David Nelson" 
+{ "_id" : ObjectId("5a482b8a16bd379522c29a2b") }
+{ "_id" : ObjectId("5a482c1211413c9536a434a5") }
+
+"wikiTitle" : "Margaret Wallace" 
+{ "_id" : ObjectId("5a482b8a16bd379522c29a1a") }
+{ "_id" : ObjectId("5a482c1211413c9536a434b8") }
+
+"wikiTitle" : "Mark Greif"
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6dd") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a39") }
+
+"wikiTitle" : "Andrew Baron" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbf8") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa4") }
+
+"wikiTitle" : "Berhanu Nega"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbc5") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a19") }
+
+"wikiTitle" : "Alexandra von F&#xFC;rstenberg"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbd0") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fda") }
+
+"wikiTitle" : "Jim Stanford"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbef") }
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6d6") }
+
+"wikiTitle" : "Lauren Jones" 
+{ "_id" : ObjectId("5a482c1211413c9536a434b4") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fb6") }
+
+"wikiTitle" : "Dorian Corey"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbd6") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa2") }
+
+"wikiTitle" : "PJ Loughran" 
+{ "_id" : ObjectId("5a482c1211413c9536a4348f") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fd2") }
+
+"wikiTitle" : "Bill Zanker"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbbe") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a2c") }
+
+"wikiTitle" : "Rodney Durso" 
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbde") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fa9") }
+
+"wikiTitle" : "David-Simon Dayan" 
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6f1") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fab") }
+
+"wikiTitle" : "John Galliano" 
+{ "_id" : ObjectId("5a482b8a16bd379522c29a33") }
+{ "_id" : ObjectId("5a482c1211413c9536a43490") }
+
+"wikiTitle" : "Alvin Toffler"
+{ "_id" : ObjectId("5a482ac60f67dd94f939dbbb") }
+{ "_id" : ObjectId("5a482b8a16bd379522c29a17") }
+
+"wikiTitle" : "Van Day Truex" 
+{ "_id" : ObjectId("5a482b13b3de3f950d64c6d5") }
+{ "_id" : ObjectId("5a482cc802f7dd954c360fb2") }
+
+
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43494") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fac") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fa5") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a3a") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43489") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fd9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434aa") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360faf") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fb0") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fbf") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fe9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43491") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434a9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360f9c") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fbc") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43484") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360ff2") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fd1") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a4348a") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434a8") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fc0") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434a7") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434c9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360f9f") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a4348d") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360f99") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360f98") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360ff1") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434b9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434ca") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43486") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a4349d") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360f9e") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a45") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a2e") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360faa") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a6c") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43482") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360f96") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a25") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fad") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a55") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fc9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fe5") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fc2") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fa3") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a16") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a4d") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fae") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434a5") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a434b8") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a39") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fa4") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a19") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fda") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b13b3de3f950d64c6d6") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fb6") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fa2") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fd2") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a2c") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fa9") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fab") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482c1211413c9536a43490") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482b8a16bd379522c29a17") })
+db.entrepreneurs.remove({ "_id" : ObjectId("5a482cc802f7dd954c360fb2") })
+
+
+Historical Figures removed: 
+db.entrepreneurs.remove({ "wikiTitle" : "Max Wertheimer"})
+db.entrepreneurs.remove({ "wikiTitle" : "Alexander Hamilton"})
+db.entrepreneurs.remove({ "wikiTitle" : "George Westinghouse"})
+db.entrepreneurs.remove({ "wikiTitle" : "William Morris"})
+db.entrepreneurs.remove({ "wikiTitle" : "Elizabeth Taylor"})
+db.entrepreneurs.remove({ "wikiTitle" : "Howard Hughes"})
+db.entrepreneurs.remove({ "wikiTitle" : "Abram Hewitt" })
+db.entrepreneurs.remove({ "wikiTitle" : "Ioan Kalinderu" })
+db.entrepreneurs.remove({ "wikiTitle" : "James Brindley"})
+db.entrepreneurs.remove({ "wikiTitle" : "Thomas H. Ince"})
+db.entrepreneurs.remove({ "wikiTitle" : "Carl Wilhelm Siemens"})
+db.entrepreneurs.remove({ "wikiTitle" : "Priyanka Chopra"})
+db.entrepreneurs.remove({ "wikiTitle" : "Abram Fitkin"})
+db.entrepreneurs.remove({ "wikiTitle" : "Maharishi Mahesh Yogi"})
+db.entrepreneurs.remove({ "wikiTitle" : "<i>Marion</i> (sternwheeler)"})
+db.entrepreneurs.remove({ "wikiTitle" : "Federico Beltr&#xE1;n Masses"})
+db.entrepreneurs.remove({ "wikiTitle" : "Shelburne Museum"})
+db.entrepreneurs.remove({ "wikiTitle" : "Samuel Phillips Jr."})
+db.entrepreneurs.remove({ "wikiTitle" : "Thorstein Veblen"})
+db.entrepreneurs.remove({ "wikiTitle" : "Charles A. Beard"})
+db.entrepreneurs.remove({ "wikiTitle" : "Erich Fromm"})
+db.entrepreneurs.remove({ "wikiTitle" : "Tom&#xE1;s Map&#xFA;a"})
+db.entrepreneurs.remove({ "wikiTitle" : "Porter Sargent"})
+db.entrepreneurs.remove({ "wikiTitle" : "Bal Gangadhar Tilak"})
+db.entrepreneurs.remove({ "wikiTitle" : "John Boyd Orr"})
+db.entrepreneurs.remove({ "wikiTitle" : "Douglas Fairbanks"})
+db.entrepreneurs.remove({ "wikiTitle" : "Theodor Fliedner"})
+db.entrepreneurs.remove({ "wikiTitle" : "Jeremy Grantham"})
+db.entrepreneurs.remove({ "wikiTitle" : "Katherine Sophie Dreier"})
+db.entrepreneurs.remove({ "wikiTitle" : "Theodor Heuss"})
+db.entrepreneurs.remove({ "wikiTitle" : "Ernst Ludwig Kirchner"})
+db.entrepreneurs.remove({ "wikiTitle" : "Werner Hegemann"})
+db.entrepreneurs.remove({ "wikiTitle" : "Lyc&#xE9;e Chaptal"})
+db.entrepreneurs.remove({ "wikiTitle" : "John Maynard Keynes"})
+db.entrepreneurs.remove({ "wikiTitle" : "Frank Knight"})
+db.entrepreneurs.remove({ "wikiTitle" : "Percy Uris"})
+db.entrepreneurs.remove({ "wikiTitle" : "Joseph Schumpeter"})
+db.entrepreneurs.remove({ "wikiTitle" : "Richard Burchett"})
+db.entrepreneurs.remove({ "wikiTitle" : "Frank Fetter"})
+db.entrepreneurs.remove({ "wikiTitle" : "Isaac L. Ellwood"})
+db.entrepreneurs.remove({ "wikiTitle" : "Chau Siu-ki"})
+db.entrepreneurs.remove({ "wikiTitle" : "John Harry Grainger"})
