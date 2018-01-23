@@ -8,7 +8,7 @@ var cheerio = require('cheerio');
 var linkedInfo=[];
 
 
-var content = JSON.parse(fs.readFileSync('linkedInTNSList.json','utf8')); //
+var content = JSON.parse(fs.readFileSync('linkedInParsonsList.json','utf8')); //
 
 //create object to load content 
 
@@ -26,7 +26,7 @@ content.forEach( function(d, i) {
 	linkedInfo.push(contentData);
 });
 
-saveFile(linkedInfo, "linkedInTNSCleaned.json");
+saveFile(linkedInfo, "linkedInParsonsCleaned.json");
 
 // Saves file in JSON format  HELPFUL code for future projects.
 function saveFile(data, fileName) {

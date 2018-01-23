@@ -3,7 +3,7 @@
 var fs 	    = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
-var content = fs.readFileSync('linkedInSearch2.txt');
+var content = fs.readFileSync('parsonEnt.txt');
 var websites =[];
 
 var $ = cheerio.load(content)
@@ -51,7 +51,7 @@ console.log(LinkedInW);
 		
 	});
 
-saveFile(websites, "linkedInTNSList");
+saveFile(websites, "linkedInParsonsList");
 
 // Saves file in JSON format  HELPFUL code for future projects.
 function saveFile(data, fileName) {
